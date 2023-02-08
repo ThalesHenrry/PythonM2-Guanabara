@@ -14,13 +14,14 @@ parcela = int(input('Quantidade de anos a pagar: '))
 
 mensalidade = (12 * parcela)
 mes = valor_casa / mensalidade
-limite = (salario*30/100) + salario
+limite = (salario*30/100)
 
 if mes > limite:
     print(
         f'\033[1;41mEMPRÉSTIMO NEGADO!\033[m\n'
-        f'* A mensalidade calculada, ultrapassa o limite permitido de 30% em cima do seu salário.\n'
-        f'Ficando no valor de \033[1mR${limite:.2f}\033[m'
+        f'* A mensalidade calculada, ultrapassa o limite permitido de 30% do seu salário.\n'
+        f'Valor liberado: \033[1mR${limite:.2f}\033[m\n'
+        f'Valor da Mensalidade: \033[1mR${mes:.2f}\033[m'
     )
 else:
     print(

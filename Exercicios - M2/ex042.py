@@ -17,14 +17,14 @@ if prova1 == True:
     print(
         f'Possivel formar um Triângulo!'
     )
+    if linha1 and linha2 and linha3 == linha1 and linha2 and linha3:
+        print('- Triângulo Esquilátero')
+    elif linha1 != linha2 and linha1 != linha3 and linha3 != linha2:
+        print('- Triângulo Escaleno')
+    else:
+        print('- Triângulo Isóceles')
 else:
     print(
-        f'Impossivel formar um Triângulo!'
+        f'\033[1;31mImpossivel formar um Triângulo!'
     )
 
-if linha1 and linha2 and linha3 == linha1 and linha2 and linha3:
-    print('- Triângulo Esquilátero')
-elif linha1 != linha2 and linha1 != linha3 and linha3 != linha2:
-    print('- Triângulo Escaleno')
-else:
-    print('- Triângulo Isóceles')

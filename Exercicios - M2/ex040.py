@@ -8,7 +8,7 @@ media = (nota1 + nota2) / 2
 
 if media < 5:
     status = '\033[1;31mReprovado(a)\033[m'
-elif media > 7:
+elif media >= 7:
     status = '\033[1;32mAprovado(a)\033[m'
 else:
     status = '\033[1;33mRecuperação\033[m'

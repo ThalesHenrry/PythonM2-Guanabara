@@ -18,7 +18,9 @@ elif escolha == 2:
     conv = oct(num)
     print(f'O número escolhido foi {num}\n'
           f'Em Octademical: {conv[2::]}')
-else:
+elif escolha == 3:
     conv = hex(num)
     print(f'O número escolhido foi {num}\n'
           f'Em Hexadecimal: {conv[2::]}')
+else:
+    print('\033[1;31mOpção inválida tente novamente!')
