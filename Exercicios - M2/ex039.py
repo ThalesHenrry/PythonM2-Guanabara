@@ -10,7 +10,7 @@ idade = ano_atual - nasc
 
 if idade < 18:
     print('Ainda irá se alistar ao Serviço Militar!\n'
-          f'Falta: {18 - idade} anos.')
+          f'\033[1;43mFalta:\033[m {18 - idade} anos.')
 elif idade > 18:
     print('\033[1;41mALERTA:\033[m já Passou da hora de se alistar ao Serviço Militar!\n'
           f'Atraso: {idade - 18} anos.')

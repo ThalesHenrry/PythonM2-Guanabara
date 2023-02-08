@@ -6,15 +6,15 @@ altura = float(input('Sua altura: '))
 imc = peso / (altura**2)
 
 if imc <= 18.5:
-    status = 'Abaixo do peso'
+    status = '\033[1;31mAbaixo do peso\033[m'
 elif imc < 25:
-    status = 'Peso ideal'
+    status = '\033[1;32mPeso ideal\033[m'
 elif imc < 30:
-    status = 'Sobrepeso'
+    status = '\033[1;33mSobrepeso\033[m'
 elif imc < 40:
-    status = 'Obesidade'
+    status = '\033[1;31mObesidade\033[m'
 else:
-    status = 'Obesidade Mórbida'
+    status = '\033[1;31mObesidade Mórbida\033[m'
 
-print(f'Seu IMC: {imc:.2f}\n'
-      f'Status: {status}')
+print(f'\033[1mSeu IMC: {imc:.2f}\033[m\n'
+      f'\033[1mStatus:\033[m {status}')

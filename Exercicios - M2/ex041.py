@@ -18,6 +18,6 @@ else:
     classe = 'Master'
 
 print(
-    f'Sua Categoria é {classe}!'
+    f'Sua idade é {idade} anos, e sua Categoria é \033[1m{classe}\033[m!'
 )
 

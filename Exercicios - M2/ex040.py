@@ -7,14 +7,14 @@ nota2 = float(input('2ª nota: '))
 media = (nota1 + nota2) / 2
 
 if media < 5:
-    status = 'Reprovado(a)'
+    status = '\033[1;31mReprovado(a)\033[m'
 elif media > 7:
-    status = 'Aprovado(a)'
+    status = '\033[1;32mAprovado(a)\033[m'
 else:
-    status = 'Recuperação'
+    status = '\033[1;33mRecuperação\033[m'
 
 print(
-    f'Aluno(a): {nome}.\n'
+    f'Aluno(a): \033[1m{nome}\033[m.\n'
     f'Sua Média é {media:.2f}\n'
     f'Status: {status}.'
 )

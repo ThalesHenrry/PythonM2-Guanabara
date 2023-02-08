@@ -11,6 +11,8 @@ prova1 = (linha1 > abs(linha2-linha3)) and (linha1 < abs(linha2+linha3)) and \
          (linha2 > abs(linha1-linha3)) and (linha2 < abs(linha1+linha3)) and \
          (linha3 > abs(linha1-linha2)) and (linha3 < abs(linha1+linha2))
 
+print('    \n')
+
 if prova1 == True:
     print(
         f'Possivel formar um Triângulo!'

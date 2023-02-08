@@ -21,5 +21,5 @@ else:
     valor_final = valor_produto + (valor_produto * 20 / 100)
 
 print(
-    f' Com sua forma de pagamento, o valor do produto de R${valor_produto:.2f} para R${valor_final:.2f}'
+    f' Com sua forma de pagamento, o valor do produto de \033[1mR${valor_produto:.2f}\033[1m para \033[1;32mR${valor_final:.2f}\033[m'
 )
