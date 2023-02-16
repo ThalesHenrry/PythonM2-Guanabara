@@ -19,7 +19,7 @@ for c in range(0, 4):
     if idade < 20 and sexo == '2':
         mulher += 1
 
-print(f'- A média de idade do grupo: \033[1m{media}\033[m')
-print(f'- O homem mais velho é: \033[1m{homem_velho.capitalize()}\033[m\n'
-      f'sua idade: \033[1m{velho} anos\033[m')
-print(f'- Mulheres com menos de 20 anos: \033[1m{mulher}\033[m')
+print(f'- A média de idade do grupo: \033[1;33m{media}\033[m')
+print(f'- O homem mais velho é: \033[1;33m{homem_velho.capitalize()}\033[m\n'
+      f'sua idade: \033[1;33m{velho} anos\033[m')
+print(f'- Mulheres com menos de 20 anos: \033[1;33m{mulher}\033[m')

@@ -5,5 +5,5 @@ par = 0
 for c in range(0, 6):
     num = int(input('Escreva um número: '))
     if num % 2 == 0:
-        par = num + par
+        par += num
 print(f'A soma dos números pares é {par}')

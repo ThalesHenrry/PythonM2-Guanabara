@@ -6,15 +6,15 @@ ano = date.today().year
 maior = 0
 menor = 0
 
-for c in range(0, 7):
-    nasc = int(input('Qual o seu ano de nascimento: '))
+for c in range(1, 8):
+    nasc = int(input(f'Participante número {c}º, qual o seu ano de nascimento: '))
     idade = ano - nasc
 
     if idade >= 18:
-        maior = maior + 1
+        maior += 1
     else:
-        menor = menor + 1
+        menor += + 1
 
 print('')
-print(f'Maior idade: {maior} pessoas;\n'
-      f'Menor idade: {menor} pessoas.')
+print(f'Maior idade: \033[1m{maior} pessoas;\033[m\n'
+      f'Menor idade: \033[1m{menor} pessoas.\033[m')

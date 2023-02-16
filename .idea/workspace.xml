@@ -6,8 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="1c067eae-b991-485f-9eb7-c1e25f1a7854" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercicios - M2/ex045(teste).py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicios - M2/ex045(teste).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios - M2/ex047.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicios - M2/ex047.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios - M2/ex048.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicios - M2/ex048.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios - M2/ex049.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicios - M2/ex049.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios - M2/ex050.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicios - M2/ex050.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercicios - M2/ex051.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicios - M2/ex051.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios - M2/ex052.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicios - M2/ex052.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios - M2/ex054.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicios - M2/ex054.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios - M2/ex056.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicios - M2/ex056.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +46,7 @@
   }
 }</component>
   <component name="RunManager" selected="Python.ex056">
-    <configuration name="ex051" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex052" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonM2-Guanabara" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -52,7 +58,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercicios - M2/ex051.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercicios - M2/ex052.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,7 +157,7 @@
         <item itemvalue="Python.ex055" />
         <item itemvalue="Python.ex054" />
         <item itemvalue="Python.ex053" />
-        <item itemvalue="Python.ex051" />
+        <item itemvalue="Python.ex052" />
       </list>
     </recent_temporary>
   </component>
