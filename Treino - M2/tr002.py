@@ -10,7 +10,7 @@ f = 0
 eleitores = int(input('Quantidade de eleitores: '))
 
 for c in range(0, eleitores):
-    print('Em quem deseja voltar?\n'
+    print('Em quem deseja votar?\n'
           '[1]Gabiru da Silva\n'
           '[2]Selena Gomes\n'
           '[3]Faustão')
@@ -18,7 +18,7 @@ for c in range(0, eleitores):
     if voto == 1:
         g += 1
     elif voto == 2:
-        s += 1
+        s = s + 1
     elif voto == 3:
         f += 1
     else:
@@ -32,29 +32,31 @@ print('=======RESULTADO=======')
 
 # CAMPEÃO
 camp = g
-if g > s and f:
+if g > s and g > f:
     camp = eleitor1
-elif s > g and f:
+elif s > g and s > f:
     camp = eleitor2
 else:
     camp = eleitor3
 
+# print(f'Campeão {camp}')
+
 # ULTIMO
 ult = g
-if g < s and f:
+if g < s and g < f:
     ult = eleitor1
-elif s < g and f:
+elif s < g and s < f:
     ult = eleitor2
 else:
     ult = eleitor3
 
 # VICE
 vice = g
-if camp == eleitor1 and ult == eleitor3:
+if camp == eleitor1 and ult == eleitor3 or camp == eleitor3 and ult == eleitor1:
     vice = eleitor2
-elif camp == eleitor2 and ult == eleitor3:
+if camp == eleitor2 and ult == eleitor3 or camp == eleitor3 and ult == eleitor2:
     vice = eleitor1
-else:
+if camp == eleitor1 and ult == eleitor2 or camp == eleitor2 and ult == eleitor1:
     vice = eleitor3
 
 # RESULTADO CAMPEÃO
