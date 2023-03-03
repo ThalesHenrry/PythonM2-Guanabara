@@ -35,7 +35,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.tr009">
+  <component name="RunManager" selected="Python.tr007">
     <configuration name="tr005" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonM2-Guanabara" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,9 +143,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tr007" />
         <item itemvalue="Python.tr009" />
         <item itemvalue="Python.tr008" />
-        <item itemvalue="Python.tr007" />
         <item itemvalue="Python.tr006" />
         <item itemvalue="Python.tr005" />
       </list>

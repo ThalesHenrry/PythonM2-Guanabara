@@ -16,5 +16,5 @@ while quantidade_cd > c:
 for lista_cd in lista_cd:
     soma += lista_cd
 
-print(f'A média gasta por Cd é de R${soma/(p-1):.2f}')
-print(f'E a soma total de gastos com Cds é R${soma:.2f}')
+print(f'\033[1;36mA média gasta por Cd é de R${soma/(p-1):.2f}\033[m')
+print(f'\033[1;35mE a soma total de gastos com Cds é R${soma:.2f}\033[m')
